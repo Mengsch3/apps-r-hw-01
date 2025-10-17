@@ -1,3 +1,3 @@
 # apps-r-hw-01
-# [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/cautious-space-broccoli-5gx7jp4665wr2vjg6?editor=web)
+# [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://prod.liveshare.vsengsaas.visualstudio.com/join?CEC5800F5BE69112E044446D438F327B1A81)
 the first assignment for the “R for Finance Applications” course, part of the 2025 Risk Management and Financial Engineering program. The assignment consists of two main tasks: exploratory data analysis followed by data visualization.
