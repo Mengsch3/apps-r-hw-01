@@ -1,0 +1,54 @@
+project:
+  type: default
+  output-dir: output
+
+format:
+  pdf:
+    documentclass: article
+    papersize: a4
+    geometry:
+      - top=20mm
+      - bottom=20mm
+      - left=20mm
+      - right=20mm
+    toc: true
+    toc-depth: 2
+    number-sections: true
+    colorlinks: true
+    link-citations: true
+    fig-pos: 'H'
+    code-block-bg: true
+    code-block-border-left: "#31BAE9"
+    fontsize: 10pt
+    # mainfont: "Times New Roman"
+    # monofont: "Courier New"
+    monofontoptions:
+      - Scale=0.75
+    
+    # 代码块设置 - 解决代码超出页面问题
+    highlight-style: github
+    code-line-numbers: false
+    code-overflow: wrap        # 自动换行，防止代码超出页面
+    
+    # LaTeX 高级设置：处理长代码行
+    include-in-header:
+      text: |
+        \usepackage{fvextra}
+        \DefineVerbatimEnvironment{Highlighting}{Verbatim}{
+          breaklines,
+          breakanywhere=true,
+          breaksymbolleft={},
+          fontsize=\small,
+          commandchars=\\\{\}
+        }
+        \RecustomVerbatimEnvironment{verbatim}{Verbatim}{
+          breaklines,
+          breakanywhere=true,
+          fontsize=\small
+        }
+
+execute:
+  echo: true
+  warning: false
+  error: false
+  cache: false
