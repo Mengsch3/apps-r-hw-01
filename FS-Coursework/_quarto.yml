@@ -6,6 +6,7 @@ format:
   pdf:
     documentclass: article
     papersize: a4
+    engine: xelatex
     geometry:
       - top=20mm
       - bottom=20mm
